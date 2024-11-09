@@ -1,0 +1,87 @@
+/* Order Heading */
+.order-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Order List */
+  .order-list {
+    padding: 0;
+    list-style: none;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Order Item */
+  .order-item {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  .order-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+  
+  /* Order Details */
+  .order-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .order-id {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #4a4a4a;
+  }
+  
+  .order-date, .order-status, .order-total {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Status Badge */
+  .order-status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #007bff; /* Default for statuses like "completed" */
+  }
+  
+  .order-status.pending {
+    background-color: #f39c12;
+  }
+  
+  .order-status.delivered {
+    background-color: #28a745;
+  }
+  
+  .order-status.cancelled {
+    background-color: #dc3545;
+  }
+  
+  /* Total Amount */
+  .order-total {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* No Orders Text */
+  .no-orders-text {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 30px;
+  }
+  

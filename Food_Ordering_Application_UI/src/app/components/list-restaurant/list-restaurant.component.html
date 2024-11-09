@@ -1,0 +1,18 @@
+<h2 class="restaurant-heading">All Restaurants</h2>
+<div class="restaurants-container">
+  <div class="restaurant-card" *ngFor="let restaurant of restaurants">
+    <div class="restaurant-card-inner">
+      <!-- <div class="restaurant-image">
+        <img src="assets/restaurant-placeholder.jpg" alt="Restaurant Image" />
+      </div> -->
+      <div class="restaurant-info">
+        <h3 class="restaurant-name">{{ restaurant.name }}</h3>
+        <p class="restaurant-location">{{ restaurant.location }}</p>
+        <p class="restaurant-cuisine">{{ restaurant.cuisine }}</p>
+      </div>
+      <div class="button-container">
+        <button class="button-primary" (click)="viewMenu(restaurant.restaurantId)">View Menu</button>
+      </div>
+    </div>
+  </div>
+</div>

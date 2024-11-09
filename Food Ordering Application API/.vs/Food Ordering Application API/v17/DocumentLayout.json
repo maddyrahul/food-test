@@ -1,0 +1,906 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\presentation_layer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|solutionrelative:presentation_layer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\presentation_layer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|solutionrelative:presentation_layer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\dtos\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\presentation_layer\\controllers\\restaurantownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|solutionrelative:presentation_layer\\controllers\\restaurantownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\irestaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\irestaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\presentation_layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|solutionrelative:presentation_layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\presentation_layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|solutionrelative:presentation_layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\presentation_layer\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|solutionrelative:presentation_layer\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241107165603_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data_Accesss_Layer\\Migrations\\20241107165603_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241107155242_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data_Accesss_Layer\\Migrations\\20241107155242_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\presentation_layer\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55207851-D48E-4A05-B75C-9F7E0AAD4BB6}|Presentation_Layer\\Presentation_Layer.csproj|solutionrelative:presentation_layer\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\models\\userregistermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\models\\userloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241104070333_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241103173525_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\AppData\\Local\\Temp\\.vsdbgsrc\\21859c132d07f728e08c4c05f2840353e0149b97abfab2126ce002cb34542669\\ResourceInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241102084926_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241101073639_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\business_layer\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F4983B0-7A94-48DD-82BB-746A0E3C800F}|Business_Layer\\Business_Layer.csproj|solutionrelative:business_layer\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241030055505_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241029180905_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\migrations\\20241107165853_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\migrations\\20241107165853_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\dtos\\successresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\dtos\\successresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\dtos\\errorresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\dtos\\reviewresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\dtos\\reviewresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\dtos\\registerrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\dtos\\registerrestaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\food ordering application\\food ordering application api\\data_accesss_layer\\dtos\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8EDBFCF-97F3-4078-8D3A-A6EDDBAF3C69}|Data_Accesss_Layer\\Data_Accesss_Layer.csproj|solutionrelative:data_accesss_layer\\dtos\\menuitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\CartService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\CartService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAqwCMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:01:44.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Order.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Models\\Order.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:38:27.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T17:45:09.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\CustomerService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwD8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T17:47:50.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\User.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T19:39:25.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Presentation_Layer\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Presentation_Layer\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:14:03.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\CartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:58:17.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Presentation_Layer\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Presentation_Layer\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAgwKMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T18:49:15.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\ICartService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\ICartService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\ICartService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\ICartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T19:00:44.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\ICartRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\ICartRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\ICartRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:54:21.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddToCartDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\AddToCartDto.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\DTOs\\AddToCartDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\AddToCartDto.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\DTOs\\AddToCartDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T18:26:30.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateCartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\UpdateCartItemDto.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\DTOs\\UpdateCartItemDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\UpdateCartItemDto.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\DTOs\\UpdateCartItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:16:32.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Cart.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:39:22.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RestaurantOwnerController.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\RestaurantOwnerController.cs",
+              "RelativeDocumentMoniker": "Presentation_Layer\\Controllers\\RestaurantOwnerController.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\RestaurantOwnerController.cs",
+              "RelativeToolTip": "Presentation_Layer\\Controllers\\RestaurantOwnerController.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAowPUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:28:16.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\RestaurantService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\RestaurantService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\RestaurantService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\RestaurantService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:42:55.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\IRestaurantService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\IRestaurantService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\IRestaurantService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\IRestaurantService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T11:42:20.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RestaurantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\RestaurantRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\RestaurantRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\RestaurantRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\RestaurantRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:59:36.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRestaurantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\IRestaurantRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\IRestaurantRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\IRestaurantRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\IRestaurantRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T15:59:00.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SuccessResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\SuccessResponseDto.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\DTOs\\SuccessResponseDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\SuccessResponseDto.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\DTOs\\SuccessResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:57:53.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ErrorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\ErrorResponseDto.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\DTOs\\ErrorResponseDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\ErrorResponseDto.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\DTOs\\ErrorResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:57:28.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ReviewResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\ReviewResponseDto.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\DTOs\\ReviewResponseDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\ReviewResponseDto.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\DTOs\\ReviewResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:57:02.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ReviewDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\ReviewDto.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\DTOs\\ReviewDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\ReviewDto.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\DTOs\\ReviewDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:56:36.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RegisterRestaurantDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\RegisterRestaurantDto.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\DTOs\\RegisterRestaurantDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\RegisterRestaurantDto.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\DTOs\\RegisterRestaurantDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:47:41.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MenuItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\MenuItemDto.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\DTOs\\MenuItemDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\DTOs\\MenuItemDto.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\DTOs\\MenuItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T10:14:49.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Menu.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Models\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:37:53.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation_Layer\\Program.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Program.cs",
+              "RelativeToolTip": "Presentation_Layer\\Program.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T16:52:56.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation_Layer\\appsettings.json",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\appsettings.json",
+              "RelativeToolTip": "Presentation_Layer\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T14:13:50.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-04T17:26:07.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Presentation_Layer\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Presentation_Layer\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAqwIEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T18:50:21.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\AdminRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:28:37.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\AdminService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\AdminService.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:29:23.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Review.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Models\\Review.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:38:55.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Restaurant.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Models\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\Restaurant.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Models\\Restaurant.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:37:20.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAswFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:48:37.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\UserService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\UserService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:49:22.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20241107165853_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241107165853_add.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Migrations\\20241107165853_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241107165853_add.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Migrations\\20241107165853_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:58:53.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241107165603_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241107165603_add.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Migrations\\20241107165603_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241107165603_add.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Migrations\\20241107165603_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:56:04.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20241107155242_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241107155242_add.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Migrations\\20241107155242_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241107155242_add.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Migrations\\20241107155242_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T15:52:43.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation_Layer\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Presentation_Layer\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation_Layer\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T20:01:43.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T17:43:23.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T17:47:03.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\IAdminService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\IAdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:26:20.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\IAdminRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\IAdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T20:27:21.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserRegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\UserRegisterModel.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Models\\UserRegisterModel.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\UserRegisterModel.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Models\\UserRegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:36:07.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\UserLoginModel.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Models\\UserLoginModel.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Models\\UserLoginModel.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Models\\UserLoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:36:05.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20241104070333_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241104070333_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241104070333_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241104070333_add.cs",
+              "RelativeToolTip": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241104070333_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T07:03:33.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20241103173525_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241103173525_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241103173525_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241103173525_add.cs",
+              "RelativeToolTip": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241103173525_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T17:35:25.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ResourceInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\AppData\\Local\\Temp\\.vsdbgsrc\\21859c132d07f728e08c4c05f2840353e0149b97abfab2126ce002cb34542669\\ResourceInvoker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\21859c132d07f728e08c4c05f2840353e0149b97abfab2126ce002cb34542669\\ResourceInvoker.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\AppData\\Local\\Temp\\.vsdbgsrc\\21859c132d07f728e08c4c05f2840353e0149b97abfab2126ce002cb34542669\\ResourceInvoker.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\21859c132d07f728e08c4c05f2840353e0149b97abfab2126ce002cb34542669\\ResourceInvoker.cs [Read Only]",
+              "ViewState": "AQIAALYAAAAAAAAAAAAwwMsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:04:15.882Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA2wDsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T20:00:08.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20241102084926_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241102084926_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241102084926_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241102084926_add.cs",
+              "RelativeToolTip": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241102084926_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T08:49:27.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20241101073639_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241101073639_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241101073639_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241101073639_add.cs",
+              "RelativeToolTip": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241101073639_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:36:39.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business_Layer\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Business_Layer\\Services\\IUserService.cs",
+              "RelativeToolTip": "Business_Layer\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:49:18.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Data_Accesss_Layer\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application\\Food Ordering Application API\\Data_Accesss_Layer\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Data_Accesss_Layer\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T19:51:48.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20241030055505_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241030055505_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241030055505_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241030055505_add.cs",
+              "RelativeToolTip": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241030055505_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T05:55:06.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20241029180905_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241029180905_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241029180905_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241029180905_add.cs",
+              "RelativeToolTip": "..\\..\\Food Ordering Application API\\Data_Accesss_Layer\\Migrations\\20241029180905_add.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T18:09:05.892Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

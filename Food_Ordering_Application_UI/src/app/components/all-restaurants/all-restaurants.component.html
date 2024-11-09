@@ -1,0 +1,39 @@
+<!-- All Restaurants Section -->
+<h2 class="restaurant-heading">All Restaurants</h2>
+<div class="restaurants-container">
+  <div class="restaurant-card" *ngFor="let restaurant of restaurants">
+    <h3 class="restaurant-name">{{ restaurant.name }}</h3>
+    <p class="restaurant-info">{{ restaurant.location }} | {{ restaurant.cuisine }}</p>
+
+    <!-- Action Buttons -->
+    <div class="button-container">
+      <button class="button-primary" (click)="addMenu(restaurant.restaurantId)">Add Menu</button>
+      <button class="button-secondary" (click)="viewMenu(restaurant.restaurantId)">View Menu</button>
+    </div>
+
+    <!-- Menu Items for the Selected Restaurant -->
+<div *ngIf="selectedRestaurantId === restaurant.restaurantId" class="menu-section">
+  <h4 class="menu-heading">Menu:</h4>
+  
+  <!-- Menu Item List -->
+  <ul *ngIf="menuItems.length > 0; else noMenu">
+    <li *ngFor="let item of menuItems" class="menu-item">
+      <span class="menu-item-name">{{ item.name }}</span>
+      <span class="menu-item-price">{{ item.price | currency }}</span>
+      
+      <!-- Edit Button -->
+      <button class="menu-item-button edit-btn" (click)="editMenu(item.menuId)">Edit</button>
+      
+      <!-- Delete Button -->
+      <button class="menu-item-button delete-btn" (click)="deleteMenu(item.menuId)">Delete</button>
+    </li>
+  </ul>
+  
+  <!-- No Menu Message -->
+  <ng-template #noMenu>
+    <p class="no-menu-text">No menu items available for this restaurant.</p>
+  </ng-template>
+</div>
+
+  </div>
+</div>

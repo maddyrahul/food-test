@@ -1,0 +1,16 @@
+<h4 class="order-heading">Your Orders</h4>
+
+<ul *ngIf="orders.length > 0; else noOrders" class="order-list">
+  <li *ngFor="let order of orders" class="order-item">
+    <div class="order-details">
+       
+      <span class="order-date">Order Date: {{ order.orderDate | date:'short' }}</span>
+      <span class="order-status">Status: {{ order.status }}</span>
+      <span class="order-total">Total Amount: {{ order.totalAmount | currency }}</span>
+    </div>
+  </li>
+</ul>
+
+<ng-template #noOrders>
+  <p class="no-orders-text">You have no past orders.</p>
+</ng-template>
